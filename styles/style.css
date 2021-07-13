@@ -3,17 +3,29 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
 }
+.container{
+    background-color: #2D25A0;
+    margin-left: 50px;
+   
+}
+main{
+    Width:1440px;
+    Height :677px;
+}
+
 .top-section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.container{
-    background-color: #2D25A0;
+    padding:207px 102px 240px 156px;
+    height: 667px;
+    width: 100%;
+    box-sizing: border-box;
 }
 .copa-text{
     color:#FFFFFF;
-    font-size: 36px;
+    font-size: 64px;
+    font-weight: 700px;
 }
 .football-player img{
     width: 556.01px;
@@ -21,6 +33,10 @@ body{
     margin:153px 140px 46px 106px;
    
 }
+
+
+
+
 .btn-font{
     width: 168px;
     height: 44px;
@@ -29,7 +45,7 @@ body{
  .filled{
     color: #FFFFFF;
     width: 24px;
-height: 24px;
+    height: 24px;
 }
 .btn-font a{
     font-size: 16px;
@@ -40,31 +56,27 @@ height: 24px;
     padding: 10px 20px;
 }
 
-.top-section{
-  padding:207px 102px 240px 156px;
-    height: 667px;
-    width: 100%;
-    box-sizing: border-box;
-   
-    
-}
+
 
 
 .players .player img{
-    width: 250px;
-    height: 256px;
+    width: 300px;
+    height: 426px;
 }
 .players{
    display: grid;
    grid-template-columns: repeat(3,1fr);
-   
+   margin-left: 180px;
+   margin-right: 210px;
+   margin-top: 70px;
+   padding-left: 30px;
 }
 .player{
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     margin-left: 30px;
     margin-top: 70px;
-   box-sizing: border-box;
+    box-sizing: border-box;
     padding:0px;
 
 }
@@ -91,28 +103,34 @@ height: 24px;
 .filed{
     padding-left: 14px;
 }
+
+/*ok sight*/
 .copy-right{
   
     margin-left: 600px;
 }
 .extra-section1{
     display: flex;
-    margin-top: 10%;
-    
+    margin-top: 3%;
+    margin-left: 180px;
+    margin-right: 210px;
+  
+    padding-left: 30px;
 }
 .half-width{
     width: 50%;
-    padding: 10%;
+    padding: 5%;
     
 }
 .half-width img{
-    width: 70%;
+    width: 90%;
 }
 .half-width a{
     background-image: linear-gradient(orange,red);
     padding: 10px 20px;
     border:1px solid gray ;
     border-radius:25px ;
+    text-decoration: none;
 }
 
 .extra .Legends-info img{
@@ -121,11 +139,23 @@ height: 24px;
 }
 .extra{
     display: flex;
-    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 180px;
+    margin-right: 210px;
+  
+    padding-left: 30px;
    
 }
 .Legends-info{
     box-shadow: 10px 10px 40px gray;
     width: 33%;
     margin-left: 3%;
+    
+}
+.legends-title{
+    margin-top: 3%;
+    margin-left: 210px;
+    margin-right: 210px;
+  
+    padding-left: 30px;
 }
