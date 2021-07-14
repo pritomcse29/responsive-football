@@ -282,6 +282,22 @@ main{
         margin-top: 10px;
          padding: 0px; 
     }
+
+    .extra-section1{
+    
+        margin-top: 3%;
+        margin-left:0px;
+        margin-right:0px;
+      
+        padding-left:px;
+    }
+   
+  
+
+    .legends-title{
+        margin-left: 70px;
+    }
+    
     /*social link*/
     .social-link{
         margin-left: 30%;
