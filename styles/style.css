@@ -130,6 +130,7 @@ main{
 .Football-legends .Legends-info img{
     width: 300px;
     height: 426px;
+    padding: 10px;
 }
 .color-orange{
     color: orangered;
