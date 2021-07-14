@@ -22,10 +22,13 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:207px 102px 240px 156px;
+   
     height: 667px;
     width: 100%;
     box-sizing: border-box;
+}
+.left-side{
+    padding:207px 102px 240px 156px;
 }
 .copa-text{
     color:#FFFFFF;
@@ -117,7 +120,7 @@ main{
 }
 .half-width a{
     background-image: linear-gradient(orange,red);
-    padding: 10px 20px;
+    padding: 1em 3em;
     border:1px solid gray ;
     border-radius:25px ;
     text-decoration: none;
@@ -131,19 +134,30 @@ main{
     color: orangered;
 }
 .Football-legends{
-    display: flex;
+    /* display: flex;
     margin-top: 3%;
     margin-left: 180px;
     margin-right: 210px;
   
+    padding-left: 30px; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 180px;
+    margin-right: 210px;
+    margin-top: 70px;
     padding-left: 30px;
    
 }
 .Legends-info{
-    box-shadow: 10px 10px 40px gray;
+    /* box-shadow: 10px 10px 40px gray;
     width: 33%;
-    margin-left: 3%;
-    
+    margin-left: 3%; */
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-left: 30px;
+    margin-top: 70px;
+    box-sizing: border-box;
+    padding:0px;
 }
 .legends-title{
     margin-top: 3%;
@@ -214,4 +228,63 @@ main{
 
 /*media query*/
 @media only screen and ( max-width:688px){
+    /*top section part*/
+   main{
+    width: 360px;
+    height: 450px;
+    box-sizing: border-box;
+   margin-left: 150px;
+   }
+    .top-section {
+     position: relative;
+     margin-left: 35px;
+  
+    }
+    .copa-text{
+        font-size: 36px;
+        margin-bottom:550px;
+     }
+    .btn-font{
+        margin-top:-530px;
+    }
+    .left-side{
+        padding: 10px 15px 15px 0px;
+    }
+    .football-player img{
+        width: 200px;
+        height: 159.17px;
+        left: 0px;
+        bottom:0px;
+       position:absolute;
+       margin:10px 15px 15px 0px;
+       
+    }
+
+    /*section2 part*/
+    .players{
+        grid-template-columns: repeat(1,1fr);
+        padding: 0px;
+        margin-left: 0px;
+    }
+    .player{
+        flex-direction: column;
+        padding: 0px;
+    }
+    /*extra section */
+    .Football-legends{
+        grid-template-columns: repeat(1,1fr);
+         padding: 0px;
+        margin-left: 0px; 
+       
+    }
+    .Legends-info{
+        flex-direction: column;
+        margin-top: 10px;
+         padding: 0px; 
+    }
+    /*social link*/
+    .social-link{
+        margin-left: 30%;
+    }
+    
 }
