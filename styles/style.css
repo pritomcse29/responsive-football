@@ -230,10 +230,11 @@ main{
 @media only screen and ( max-width:688px){
     /*top section part*/
    main{
-    width: 360px;
+    width: 100%;
     height: 450px;
     box-sizing: border-box;
-   margin-left: 150px;
+   justify-content: center;
+   
    }
     .top-section {
      position: relative;
@@ -302,5 +303,11 @@ main{
     .social-link{
         margin-left: 30%;
     }
-    
+   
+    .logo-image img{
+        width: 450.87px;
+        height: 110px;
+        margin-top: 158px;
+       
+    }
 }
