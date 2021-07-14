@@ -237,11 +237,13 @@ main{
     box-sizing: border-box;
    justify-content: center;
    
+   padding: 0px;
    }
     .top-section {
      position: relative;
      margin-left: 35px;
-  
+     
+     width: 0px;
     }
     .copa-text{
         font-size: 36px;
@@ -267,7 +269,7 @@ main{
     .players{
         grid-template-columns: repeat(1,1fr);
         padding: 0px;
-        margin-left: 0px;
+        margin-left: 15%px;
     }
     .player{
         flex-direction: column;
@@ -277,7 +279,7 @@ main{
     .Football-legends{
         grid-template-columns: repeat(1,1fr);
          padding: 0px;
-        margin-left: 0px; 
+       margin-left: 25%px;
        
     }
     .Legends-info{
@@ -289,16 +291,18 @@ main{
     .extra-section1{
     
         margin-top: 3%;
-        margin-left:0px;
+        margin-left: 25%px;
         margin-right:0px;
       
         padding-left:px;
     }
-   
+   .half-width{
+       width:0%;
+      }
   
 
     .legends-title{
-        margin-left: 70px;
+        margin-left: 28%;
     }
     
     /*social link*/
